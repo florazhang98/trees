@@ -179,3 +179,4 @@ def test__Heap_remove_and_insert2(xs,ys):
         heap.insert(y)
         heap.remove_min()
         assert heap.is_heap_satisfied()
+        
